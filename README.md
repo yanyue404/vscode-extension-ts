@@ -1,2 +1,5 @@
 # vscode-extension-ts
-This is a Hello World example that shows you how to use VS Code API.
+
+This sample shows how to provide a walkthrough to the Getting Started section in vscode's welcome page.
+
+![Sample walkthrough](./media/sample.png)
