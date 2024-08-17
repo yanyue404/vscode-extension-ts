@@ -2,7 +2,7 @@
   "name": "flash-notes",
   "displayName": "yanyue404 的 VS Code 插件",
   "description": "yanyue: 闪念笔记（自己省察自己）",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "yanyue404",
   "private": true,
   "license": "MIT",
@@ -13,7 +13,10 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onCommand:yanyue.sayHello",
+    "onCommand:yanyue.createAndOpenNote"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "menus": {
@@ -39,7 +42,7 @@
         "command": "yanyue.createAndOpenNote",
         "key": "ctrl+shift+alt+n",
         "mac": "cmd+shift+alt+n",
-        "when": "editorTextFocus"
+        "when": "true"
       }
     ]
   },
