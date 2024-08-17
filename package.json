@@ -1,9 +1,10 @@
 {
   "name": "flash-notes",
-  "displayName": "yanyue404 的 VS Code 插件",
+  "displayName": "闪念笔记（flash notes）",
   "description": "yanyue: 闪念笔记（自己省察自己）",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "publisher": "yanyue404",
+  "icon": "media/logo.png",
   "private": true,
   "license": "MIT",
   "repository": "https://github.com/yanyue404/vscode-extension-ts",
@@ -11,7 +12,7 @@
     "vscode": "^1.73.0"
   },
   "categories": [
-    "Other"
+    "Notebooks"
   ],
   "activationEvents": [
     "onCommand:yanyue.sayHello",

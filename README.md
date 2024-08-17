@@ -33,7 +33,9 @@ This sample shows how to provide a walkthrough to the Getting Started section in
 
 第四步：快捷键 -> 如何用快捷键触发命令  `quickNote.createAndOpenNote` (`ctrl+shift+alt+n`)
 
-第五步骤：插件打包 `npm run package` => `flash-notes-0.0.2.vsix`
+第五步：插件打包 `npm run package` => `flash-notes-0.0.2.vsix`
+
+第六步：发布插件到市场 [闪念笔记（flash notes）](https://marketplace.visualstudio.com/items?itemName=yanyue404.flash-notes)
 
 ### 小记录
 
