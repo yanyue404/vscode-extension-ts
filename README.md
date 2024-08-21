@@ -10,6 +10,16 @@ This sample shows how to provide a walkthrough to the Getting Started section in
 
 > 打包环境： node v18.20.0 (node 低版本报错 `ReferenceError: ReadableStream is not defined`)
 
+## 如何使用
+
+首先需要先安装 VS Code Speech 插件
+
+- 创建新文件 ctrl+shift+alt+n
+- 语音录入：ctrl + alt + v
+- 取消语音录入：esc
+
+> 注意：语音如果不试别中文需要安装 VS Code语言插件 Chinese (Simplified, China) language support for VS Code Speech，然后 设置 speechLanguage，修改语音功能应识别的语音为 中文简体。
+
 ## 需求
 
 [](https://github.com/Ninglo/hello-world/tree/main#%E9%9C%80%E6%B1%82)
